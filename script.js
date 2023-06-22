@@ -1,11 +1,10 @@
 
 let apiCode; // Api Variable
 
-
-
 function getExchangeRate (){ // Function to load api and get current exchange rates
    
    const url = 'https://api.exchangerate.host/symbols ';
+
    fetch(url)
       .then(response => response.json())
       .then(data =>{
@@ -76,13 +75,8 @@ async function convert(){
    const temp= Number(exchangeRate).toFixed(2);
 
    const finalResult =  await Number(numbValue*temp).toFixed(2); // Doing tha math 
-
-   console.log(temp);
-
-   console.log('Coversion:  ' +  finalResult);
-
+   
    user_result.value=  finalResult; // prints the result to the html element 
-
 }
 
 

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     <title>Converter</title>
 </head>
 <link rel="stylesheet" href="style.css">
@@ -11,7 +13,10 @@
 <body onload="getExchangeRate()">
   
     <div class="Wrapper">
-      <h1>Currency Converter</h1>
+      <header>
+        <h1>Currency Converter</h1>
+        <i class="fas fa-coins" id="coin-icon" style="font-size: 48px;"></i>
+      </header>
       
       <form id='CurrencyForm'>
 
@@ -39,8 +44,11 @@
               <input type="number" step="1" readonly="true" id="result">
               
           </div>
-          <button type="button" onclick="convert()">
-            test
+
+          <br>
+          
+          <button type="button" onclick="convert()" id="convert-button">
+            <i class="fas fa-exchange-alt" style="color: green;"></i>
           </button>
       </form>
     </div>
