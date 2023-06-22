@@ -1,6 +1,6 @@
 body{
 
-    background-color:rgb(36, 35, 35);
+    background-color:rgb(59, 62, 62);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -10,8 +10,8 @@ body{
     background-color:#659dbd;
     padding: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font: size 140px;
     top: 25%;
+    
     
 }
 header{
@@ -19,14 +19,12 @@ header{
     right: 0;
     position: absolute;
     left: 0;
-    top: 0
-    ;
-
-
+    top: 0;
 }
 
 #CurrencyForm input{
     width: 100%;
+    
 }
 #CurrencyForm select{
     width: 100%;
@@ -38,6 +36,12 @@ header{
     top: 18%;
 
 }
+
+input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        display: none;
+}
+
 #convert-button{
     size: 40px;
     background-color: gray;
