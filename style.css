@@ -10,11 +10,6 @@ body{
     background-color:#659dbd;
     padding: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-<<<<<<< HEAD
-    font: size 40px;
-    
-}
-=======
     font: size 140px;
     top: 25%;
     
@@ -25,7 +20,6 @@ header{
     padding: 4px;
     left: 0;
     right: 0%;
-    top: 0%;
     overflow: hidden;
 }
 
@@ -37,7 +31,7 @@ header{
 }
 #coin-icon{
     color: yellow;
-
+    
 }
 #convert-button{
     top: 40%;
@@ -47,4 +41,3 @@ header{
 #convert-button :hover{
     background-color: yellow;
 }
->>>>>>> master
