@@ -1,7 +1,7 @@
 body{
 
-    background-color: rgb(207, 216, 216);
-    font-family:Georgia, 'Times New Roman', Times, serif
+    background-color:rgb(36, 35, 35);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #CurrencyForm{
@@ -16,11 +16,13 @@ body{
 }
 header{
     background-color:#659dbd;
-    width: 100%;
-    padding: 4px;
+    right: 0;
+    position: absolute;
     left: 0;
-    right: 0%;
-    overflow: hidden;
+    top: 0
+    ;
+
+
 }
 
 #CurrencyForm input{
@@ -31,13 +33,15 @@ header{
 }
 #coin-icon{
     color: yellow;
-    
+    left:18%;
+    position:absolute;
+    top: 18%;
+
 }
 #convert-button{
-    top: 40%;
-    font: 10px;
-    
+    size: 40px;
+    background-color: gray;
 }
-#convert-button :hover{
+#convert-button:hover{
     background-color: yellow;
 }
